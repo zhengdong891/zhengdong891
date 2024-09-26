@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>视频播放列表</title>
+    <!-- 引入DPlayer的CSS文件 -->
+
+    <style>
+        #video-list {
+            list-style: none;
+            padding: 0;
+        }
+        #video-list li {
+            cursor: pointer;
+            margin: 10px 0;
+            color: blue;
+            text-decoration: underline;
+        }
+        #video-list li:hover {
+            color: darkblue;
+        }
+    </style>
+</head>
+<body>
+    <div id="dplayer"></div>
+    <ul id="video-list">
+        <li data-url="./video/5d59a9a3/index.m3u8">视频1</li>
+        <li data-url="./video/ab6e02fa/index.m3u8">视频2</li>
+        <li data-url="./video/e14d5cd1/index.m3u8">视频3</li>
+    </ul>
+
+    <!-- 引入DPlayer的JS文件 -->
+   
+    <script>
+       
+    </script>
+</body>
+</html>
